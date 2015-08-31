@@ -94,6 +94,7 @@
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
     <!-- Enable stylus gestures -->
+    <add-resource name="config_stylusGestures" type="bool" />
     <bool name="config_stylusGestures">true</bool>
 
     <!-- The VoiceMail default value is displayed to my own number if it is true -->
