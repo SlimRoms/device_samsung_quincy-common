@@ -117,6 +117,10 @@ on post-fs-data
     write /data/system/sensors/settings 0
     chmod 0664 /data/system/sensors/settings
 
+    # for parameter
+    chown system radio /dev/block/mmcblk0p12
+    chmod 0660 /dev/block/mmcblk0p12
+
     # DLEVEL
     chown system radio /sys/devices/platform/sec_debug_level
     chmod 0664 /sys/devices/platform/sec_debug_level
